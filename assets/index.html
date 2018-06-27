@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>Kitten Faces by Zofia Kreasi</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<script src="phaser.js"></script>
+		<style>
+			body{
+				padding: 0px;
+				margin: 0px;
+				background-color: white;
+			}
+			#pausemenu{
+				font-family: arial;
+				display: none;
+				position: fixed;
+				top: 60px;
+				left: 60px;
+				right: 60px;
+				background-color: black;
+				color: white;
+				text-align: center;
+				padding: 50px;
+			}
+			#pausemenu h3{
+				margin: 0px;
+				margin-bottom: 10px;
+			}
+			.pauseMenuButtons{
+				background-color: green;
+				padding: 12px;
+				margin: 14px;
+			}
+		</style>
+	</head>
+	<body>
+		<script src="main.js"></script>
+		<div id="pausemenu">
+			<h3>GAME PAUSED</h3>
+			<p>Tap outside this box to resume.</p>
+			<div onclick="phaserMainMenu()" class="pauseMenuButtons">Main Menu</div>
+			<div onclick="phaserResume()" class="pauseMenuButtons">Resume</div>
+		</div>
+		<script>
+			function phaserMainMenu(){
+				document.getElementById("pausemenu").style.display = "none";
+				game.paused = false;
+				goBack();
+			}
+			function phaserResume(){
+				document.getElementById("pausemenu").style.display = "none";
+				game.paused = false;
+			}
+		</script>
+	</body>
+</html>
