@@ -6,3 +6,5 @@ In this game you must click any image to see what image is it, and then choose a
 This game is coded in HTML5 and JavaScript using Phaser library.
 
 Play it online here: https://kittenfaces.ciihuy.com
+
+Watch the demo video here: https://www.youtube.com/watch?v=kOGsqLoBCXQ
