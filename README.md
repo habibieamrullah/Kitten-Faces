@@ -8,3 +8,5 @@ This game is coded in HTML5 and JavaScript using Phaser library.
 Play it online here: https://kittenfaces.ciihuy.com
 
 Watch the demo video here: https://www.youtube.com/watch?v=kOGsqLoBCXQ
+
+If you like this work and interested to support, please donate: https://paypal.me/habibieamrullah
